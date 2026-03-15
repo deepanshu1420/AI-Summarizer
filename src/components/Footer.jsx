@@ -1,6 +1,6 @@
 const Footer = () => {
   return (
-    <footer className='text-white relative z-10 text-center pb-2 light_mode'>
+    <footer className='text-white relative z-10 text-center pb-8 sm:pb-2 light_mode'>
       <small>
         Copyright © 2026 • Developed by{' '}
         <a

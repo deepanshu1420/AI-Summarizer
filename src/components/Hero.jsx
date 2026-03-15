@@ -4,7 +4,7 @@ import DarkMode from "./DarkMode";
 const Hero = () => {
   return (
     <header className="w-full flex justify-center items-center flex-col">
-      <nav className="flex justify-between items-center w-full mb-10 pt-3">
+      <nav className="flex flex-col sm:flex-row justify-between items-center w-full mb-10 pt-3 gap-5">
         <div className="flex items-center gap-2">
           <img
             src={logo}
@@ -16,7 +16,7 @@ const Hero = () => {
           </p>
         </div>
 
-        <div className="flex gap-8 items-center">
+        <div className="flex gap-4 sm:gap-8 items-center">
 
         <DarkMode />
 
