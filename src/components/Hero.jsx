@@ -31,8 +31,8 @@ const Hero = () => {
       </nav>
 
       <h1 className="head_text">
-        Summarize Articles with <br className="max-md:hidden" />
-        <span className="purple_gradient">OpenAI GPT-5</span>
+        AI Article Summarizer with <br className="max-md:hidden" />
+        <span className="purple_gradient">NLP Technology</span>
       </h1>
       <h2 className="desc">
         Experience effortless reading with AI Summarizer, a powerful open-source

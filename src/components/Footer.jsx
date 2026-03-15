@@ -1,7 +1,7 @@
 const Footer = () => {
   return (
     <footer className='text-white relative z-10 text-center pb-7 sm:pb-2 light_mode'>
-      <small>
+      <p className="text-base">
         Copyright © 2026 • Developed by{' '}
         <a
           href='https://github.com/deepanshu1420'
@@ -11,7 +11,7 @@ const Footer = () => {
         >
           Deepanshu Sharma
         </a>
-      </small>
+      </p>
     </footer>
   );
 };
