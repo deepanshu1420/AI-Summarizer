@@ -1,4 +1,4 @@
-# [AI Summarizer](https://sanskarguptadev.vercel.app/) &middot; [![Author Sanskar Gupta](https://img.shields.io/badge/Author-Sanskar-%3C%3E)](https://www.linkedin.com/in/sanskar-gupta-12476423b/)
+# [AI Summarizer](https://aisummarizer-online.netlify.app/) &middot; [![Author Deepanshu Sharma](https://img.shields.io/badge/Author-Deepanshu%20Sharma-%3C%3E)](https://www.linkedin.com/in/deepanshu-sharma12/)
 
 This is an app to simplify reading by condensing lengthy articles into concise summaries. User just need to paste the article URL and get the summary of that article transformed by AI.
 
@@ -11,26 +11,31 @@ This is an app to simplify reading by condensing lengthy articles into concise s
 
 ## Tech/framework used
 
-- React
-- Tailwind
+- React + Vite
+- Redux Toolkit (RTK Query)
+- Tailwind CSS 
 - Rapid API
-- Redux Toolkit Query
 
-## Starting the project
+## Features
 
-Open the [.env.example](/.env.example) and fill in your Rapid API key then save it as .env then run the following command:
+- 🧠 **AI Article Summarization**  
+  Uses NLP APIs to extract and generate short summaries from long web articles.
 
-```bash
-npm install
-# then
-npm run dev
-# to build
-npm run build
-```
+- ⚡ **Efficient API Handling**  
+  Powered by Redux Toolkit (RTK Query) for optimized API calls and state management.
+
+- 💾 **Local Storage History**  
+  Saves user URL history in `localStorage` for quick access across sessions.
+
+- 🎨 **Modern UI with Dark/Light Mode**  
+  Built with Tailwind CSS featuring a responsive design and dynamic theme toggle.
+
+- 🚀 **Fast Development & Build**  
+  Built with React and Vite for fast development (HMR) and optimized production builds.
 
 ## Demo
 
-Check out the live demo of the project [here](https://ai-summarizer-one-vert.vercel.app/).
+Check out the live demo of the project [here](https://aisummarizer-online.netlify.app/).
 
 ## Screenshots
 
@@ -46,6 +51,27 @@ Check out the live demo of the project [here](https://ai-summarizer-one-vert.ver
 
 ![Summary](/screenshots/screenshot-3.png)
 
-#### Dark Mode
+#### Light Mode
 
-![Dark Mode](/screenshots/screenshot-4.png)
+![Light Mode](/screenshots/screenshot-4.png)
+
+#### Mobile View
+![Mobile View](/screenshots/screenshot-5.png)
+
+## Starting the project
+
+Open the [.env.example](/.env.example) and fill in your Rapid API key then save it as .env then run the following command:
+
+```bash
+npm install
+# then
+npm run dev
+# to build
+npm run build
+```
+
+
+
+
+
+
