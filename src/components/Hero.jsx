@@ -22,7 +22,7 @@ const Hero = () => {
 
         <button
           type="button"
-          onClick={() => window.open("https://github.com/Sanskargupta0")}
+          onClick={() => window.open("https://github.com/deepanshu1420/AI-Summarizer.git")}
           className="black_btn"
         >
           GitHub
