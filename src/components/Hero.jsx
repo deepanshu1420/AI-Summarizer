@@ -32,7 +32,7 @@ const Hero = () => {
 
       <h1 className="head_text">
         Summarize Articles with <br className="max-md:hidden" />
-        <span className="purple_gradient">OpenAI GPT-4</span>
+        <span className="purple_gradient">OpenAI GPT-5</span>
       </h1>
       <h2 className="desc">
         Experience effortless reading with AI Summarizer, a powerful open-source
