@@ -42,21 +42,26 @@ Check out the live demo of the project [here](https://aisummarizer-online.netlif
 #### Landing
 
 ![Landing](/screenshots/screenshot-1.png)
+*Landing page of the AI-powered text summarizer.*
 
 #### Loading Screen
 
 ![Loading Screen](/screenshots/screenshot-2.png)
+*Processing screen while the AI generates the summary.*
 
 #### Summary
 
 ![Summary](/screenshots/screenshot-3.png)
+*AI-generated summary displayed with key information.*
 
 #### Light Mode
 
 ![Light Mode](/screenshots/screenshot-4.png)
+*Light theme interface for a clean reading experience.*
 
 #### Mobile View
 ![Mobile View](/screenshots/screenshot-5.png)
+*Responsive mobile layout of the AI summarizer.*
 
 ## Starting the project
 
