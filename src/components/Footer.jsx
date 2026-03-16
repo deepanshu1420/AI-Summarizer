@@ -1,7 +1,7 @@
 const Footer = () => {
   return (
     <footer className='text-white relative z-10 text-center pb-7 sm:pb-2 light_mode'>
-      <p className="text-sm">
+      <p className="text-base">
         Copyright © 2026 • Developed by{' '}
         <a
           href='https://github.com/deepanshu1420'
