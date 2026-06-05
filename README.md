@@ -38,7 +38,7 @@ This is an app to simplify reading by condensing lengthy articles into concise s
 
 ## 📸 Screenshots / Demo
 
-#### 🏠 Landing
+#### 🏠 Landing Page
 
 ![Landing](/screenshots/screenshot-1.png)
 *Landing page of the AI-powered text summarizer.*
