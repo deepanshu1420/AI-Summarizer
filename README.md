@@ -13,11 +13,11 @@ This is an app to simplify reading by condensing lengthy articles into concise s
 
 ## 🚀 Smart AI Article Summarizer
 
-- 🤖 Generate concise and meaningful summaries from articles using AI-powered text processing.
-- 🌗 Enjoy a seamless experience with both Light and Dark Mode support.
-- ⚛️ Built with React for a fast, responsive, and modern user interface.
-- 💾 Save and access your generated summaries anytime using browser local storage.
-- 📋 Easily copy summarized content with a single click for quick sharing and productivity.
+- 📥 Summarize articles directly from URLs without manual copy-pasting.
+- 📖 Turn lengthy content into quick, digestible insights for faster reading.
+- ⏱️ Save time by extracting the most relevant information in seconds.
+- 🎯 Designed for students, researchers, professionals, and daily readers.
+- 🔗 Simple and intuitive workflow with minimal user input required.
 
 ## 🛠️ Techstack / Framework used
 
