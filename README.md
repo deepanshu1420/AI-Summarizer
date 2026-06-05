@@ -1,5 +1,11 @@
 # [AI Summarizer](https://aisummarizerpro.vercel.app/) &middot; [![Author Deepanshu Sharma](https://img.shields.io/badge/Author-Deepanshu%20Sharma-%3C%3E)](https://www.linkedin.com/in/deepanshu-sharma12/)
 
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+![Redux Toolkit](https://img.shields.io/badge/Redux_Toolkit-593D88?style=for-the-badge&logo=redux&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![RapidAPI](https://img.shields.io/badge/RapidAPI-0055DA?style=for-the-badge&logo=rapid&logoColor=white)
+
 This is an app to simplify reading by condensing lengthy articles into concise summaries. User just need to paste the article URL and get the summary of that article transformed by AI.
 
 **🌐 Try AI Summarizer Pro :** [Live Demo](https://aisummarizerpro.vercel.app/)
@@ -12,7 +18,7 @@ This is an app to simplify reading by condensing lengthy articles into concise s
 - 💾 Save and access your generated summaries anytime using browser local storage.
 - 📋 Easily copy summarized content with a single click for quick sharing and productivity.
 
-## 🛠️ Tech / Framework used
+## 🛠️ Techstack / Framework used
 
 - 🎨 Frontend: React + Vite
 - 🔄 State Management: Redux Toolkit (RTK Query)
@@ -68,7 +74,7 @@ This is an app to simplify reading by condensing lengthy articles into concise s
 
 ### 1️⃣ Configure Environment Variables
 
-Open the `.env.example` file, add your **RapidAPI Key**, and save it as `.env`.
+Open the `.env.example` file, add your **Rapid API Key**, and save it as `.env`.
 
 ```env
 VITE_RAPID_API_KEY=your_api_key_here
@@ -86,7 +92,7 @@ npm run dev
 
 ### ✅ You're Ready!
 
-Open the local development URL shown in the terminal and start summarizing articles with AI ☄️
+Open the local development URL shown in the terminal and start summarizing articles with AI! ☄️
 
 
 
