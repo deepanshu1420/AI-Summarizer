@@ -19,15 +19,6 @@ This is an app to simplify reading by condensing lengthy articles into concise s
 - 🎯 Designed for students, researchers, professionals, and daily readers.
 - 🔗 Simple and intuitive workflow with minimal user input required.
 
-## 🛠️ Techstack / Framework used
-
-- 🎨 Frontend: React + Vite
-- 🔄 State Management: Redux Toolkit (RTK Query)
-- 💅 Styling: Tailwind CSS
-- 🚀 API Integration: Rapid API Key
-- 💾 Storage: Local Storage
-- 📋 Utility: Clipboard API
-
 ## 🔥 Features / Highlights
 
 - 🧠 **AI Article Summarization**  
@@ -45,7 +36,7 @@ This is an app to simplify reading by condensing lengthy articles into concise s
 - 🚀 **Fast Development & Build**  
   Built with React and Vite for fast development (HMR) and optimized production builds.
 
-## 📸 Screenshots
+## 📸 Screenshots / Demo
 
 #### 🏠 Landing
 
@@ -70,6 +61,15 @@ This is an app to simplify reading by condensing lengthy articles into concise s
 #### 📱 Mobile View
 ![Mobile View](/screenshots/screenshot-5.png)
 *Responsive mobile layout of the AI summarizer.*
+
+## 🛠️ Techstack / Framework used
+
+- 🎨 Frontend: React + Vite
+- 🔄 State Management: Redux Toolkit (RTK Query)
+- 💅 Styling: Tailwind CSS
+- 🚀 API Integration: Rapid API Key
+- 💾 Storage: Local Storage
+- 📋 Utility: Clipboard API
 
 ## ⚙️ Setup & Installation
 
