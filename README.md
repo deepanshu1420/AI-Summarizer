@@ -1,4 +1,4 @@
-# [AI Summarizer](https://aisummarizerpro.vercel.app/) &middot; [![Author Deepanshu Sharma](https://img.shields.io/badge/Author-Deepanshu%20Sharma-%3C%3E)](https://www.linkedin.com/in/deepanshu-sharma12/)
+# 📑 AI Summarizer
 
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
