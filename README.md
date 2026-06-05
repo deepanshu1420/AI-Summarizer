@@ -11,7 +11,7 @@ This is an app to simplify reading by condensing lengthy articles into concise s
 
 **🌐 Try AI Summarizer Pro :** [Live Demo](https://aisummarizerpro.vercel.app/)
 
-## 🚀 AI Summarizer
+## 🚀 Smart Article Summarizer
 
 - 🤖 Generate concise and meaningful summaries from articles using AI-powered text processing.
 - 🌗 Enjoy a seamless experience with both Light and Dark Mode support.
