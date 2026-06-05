@@ -1,6 +1,8 @@
-# [AI Summarizer](https://aisummarizer-online.netlify.app/) &middot; [![Author Deepanshu Sharma](https://img.shields.io/badge/Author-Deepanshu%20Sharma-%3C%3E)](https://www.linkedin.com/in/deepanshu-sharma12/)
+# [AI Summarizer](https://aisummarizerpro.vercel.app/) &middot; [![Author Deepanshu Sharma](https://img.shields.io/badge/Author-Deepanshu%20Sharma-%3C%3E)](https://www.linkedin.com/in/deepanshu-sharma12/)
 
 This is an app to simplify reading by condensing lengthy articles into concise summaries. User just need to paste the article URL and get the summary of that article transformed by AI.
+
+**🌐 Try AI Summarizer Pro :** [Live Demo](https://aisummarizerpro.vercel.app/)
 
 ## AI Summarizer
 
@@ -32,10 +34,6 @@ This is an app to simplify reading by condensing lengthy articles into concise s
 
 - 🚀 **Fast Development & Build**  
   Built with React and Vite for fast development (HMR) and optimized production builds.
-
-## Demo
-
-Check out the live demo of the project [here](https://aisummarizer-online.netlify.app/).
 
 ## Screenshots
 
