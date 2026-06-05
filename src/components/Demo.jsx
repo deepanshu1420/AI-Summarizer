@@ -10,6 +10,7 @@ const Demo = () => {
 
   const [allArticles, setAllArticles] = useState([]);
   const [copied, setCopied] = useState('');
+  const [summaryCopied, setSummaryCopied] = useState(false);
 
   const [getSummary, { error, isFetching }] = useLazyGetSummaryQuery();
 
@@ -45,6 +46,16 @@ const Demo = () => {
     navigator.clipboard.writeText(copyUrl);
     setTimeout(() => setCopied(false), 3000);
   };
+
+  const handleSummaryCopy = () => {
+  navigator.clipboard.writeText(article.summary);
+
+  setSummaryCopied(true);
+
+  setTimeout(() => {
+    setSummaryCopied(false);
+  }, 3000);
+};
 
   const handleClear = () => {
     const currentArticlesFromLocalStorage = JSON.parse(
@@ -136,9 +147,17 @@ const Demo = () => {
         ) : (
           article.summary && (
             <div className='flex flex-col gap-3'>
-              <h2 className='font-satoshi font-bold text-gray-50 text-xl light_mode'>
-                Article <span className='purple_gradient'>Summary</span>
-              </h2>
+              <div className='flex items-center justify-between'>
+                <h2 className='font-satoshi font-bold text-gray-50 text-xl light_mode'>
+                  Article <span className='purple_gradient'>Summary</span>
+                  </h2>
+                  <img
+                  src={summaryCopied ? tick : copy}
+                  alt='copy summary'
+                  className='w-6 h-5 cursor-pointer brightness-0 invert font-bold'
+                  onClick={handleSummaryCopy}
+                  />
+              </div>
               <div className='summary_box'>
                 <p className='font-inter font-medium text-sm text-gray-300 light_mode'>
                   {article.summary}
