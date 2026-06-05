@@ -24,7 +24,7 @@ This is an app to simplify reading by condensing lengthy articles into concise s
 - 🎨 Frontend: React + Vite
 - 🔄 State Management: Redux Toolkit (RTK Query)
 - 💅 Styling: Tailwind CSS
-- 🚀 API Integration: RapidAPI
+- 🚀 API Integration: Rapid API Key
 - 💾 Storage: Local Storage
 - 📋 Utility: Clipboard API
 
