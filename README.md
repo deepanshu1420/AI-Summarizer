@@ -48,7 +48,7 @@ This is an application to simplify reading by `condensing lengthy articles` into
 #### ⏳ Loading Screen
 
 ![Loading Screen](/screenshots/screenshot-2.png)
-*Processing screen while the `AI generates the summary`.*
+*Processing screen while `AI generates the summary`.*
 
 #### 📝 Summary Result
 
