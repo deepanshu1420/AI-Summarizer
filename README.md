@@ -53,7 +53,7 @@ This is an application to simplify reading by `condensing lengthy articles` into
 #### 📝 Summary Result
 
 ![Summary](/screenshots/screenshot-3.png)
-*`AI-generated summary` displayed with key information.*
+*AI-generated summary displayed with `key information`.*
 
 #### 🌞 Light Mode
 
