@@ -48,7 +48,7 @@ const Demo = () => {
   };
 
   const handleSummaryCopy = () => {
-  navigator.clipboard.writeText(article.summary);
+  navigator.clipboard.writeText(formatSummary(article.summary));
 
   setSummaryCopied(true);
 
@@ -66,6 +66,25 @@ const Demo = () => {
       setAllArticles([]);
       localStorage.removeItem('articles');
     }
+  };
+
+  const formatSummary = (text) => {
+  if (!text) return '';
+  
+  return text
+    // Remove Wikipedia citations like [21], [39][40]
+    .replace(/\[\d+(?:\]\[\d+)*\]/g, '')
+
+    // Add missing space after periods
+    .replace(/\.([A-Z])/g, '. $1')
+
+    // Add missing space between lowercase and uppercase
+    .replace(/([a-z])([A-Z])/g, '$1 $2')
+
+    // Collapse multiple spaces into one
+    .replace(/\s{2,}/g, ' ')
+
+    .trim();
   };
 
   return (
@@ -141,7 +160,7 @@ const Demo = () => {
           <p className='font-inter font-bold text-white text-center light_mode'>
             Well, that wasn&apos;t supposed to happen <br />{' '}
             <span className='font-satoshi font-normal text-gray-300'>
-              {error?.data?.error}
+              {error?.data?.message || error?.data?.error || 'Something went wrong'}
             </span>
           </p>
         ) : (
@@ -159,8 +178,8 @@ const Demo = () => {
                   />
               </div>
               <div className='summary_box'>
-                <p className='font-inter font-medium text-sm text-gray-300 light_mode'>
-                  {article.summary}
+                <p className='font-inter font-medium text-sm text-gray-300 whitespace-pre-line light_mode'>
+                  {formatSummary(article.summary)}
                 </p>
               </div>
             </div>

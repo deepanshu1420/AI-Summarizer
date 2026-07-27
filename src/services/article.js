@@ -5,21 +5,29 @@ const rapidApiKey = import.meta.env.VITE_RAPID_API_ARTICLE_KEY;
 export const articleApi = createApi({
   reducerPath: 'articleApi',
   baseQuery: fetchBaseQuery({
-    baseUrl: 'https://ai-article-extractor-and-summarizer.p.rapidapi.com',
+    baseUrl: 'https://briefly-ai-content-summarizer.p.rapidapi.com',
     prepareHeaders: (headers) => {
       headers.set('X-RapidAPI-Key', rapidApiKey);
       headers.set(
         'X-RapidAPI-Host',
-        'ai-article-extractor-and-summarizer.p.rapidapi.com'
+        'briefly-ai-content-summarizer.p.rapidapi.com'
       );
 
       return headers;
     }
   }),
+
   endpoints: (builder) => ({
     getSummary: builder.query({
-      query: (params) =>
-        `/summarize?url=${encodeURIComponent(params.articleUrl)}&length=3`
+      query: ({ articleUrl }) => ({
+        url: '/summarize',
+        method: 'GET',
+        params: {
+          url: articleUrl,
+          method: 'textrank',
+          sentences: 12
+        }
+      })
     })
   })
 });
