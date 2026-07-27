@@ -43,7 +43,7 @@ This is an application to simplify reading by `condensing lengthy articles` into
 #### 🏠 Landing Page
 
 ![Landing](/screenshots/screenshot-1.png)
-*`Landing page` of the AI-powered article summarizer.*
+*`Landing page` showcasing AI-powered article summarizer.*
 
 #### ⏳ Loading Screen
 
