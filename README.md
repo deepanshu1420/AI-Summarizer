@@ -40,10 +40,12 @@ This is an application to simplify reading by `condensing lengthy articles` into
 
 ## 📸 Screenshots / Demo
 
+> Take a look at some screenshots showcasing the website.
+
 #### 🏠 Landing Page
 
 ![Landing](/screenshots/screenshot-1.png)
-*`Landing page` showcasing AI-powered article summarizer.*
+*`Landing page` spotlighting AI-powered article summarizer.*
 
 #### ⏳ Loading Screen
 
@@ -77,27 +79,50 @@ This is an application to simplify reading by `condensing lengthy articles` into
 
 ## 🛠️ Setup & Installation
 
-### 1️⃣ Configure Environment Variables
+> To set up and run the project locally, follow these steps below:
 
-> Open the `.env.example` file, add your **Rapid API Key**, and save it as `.env`.
-
-```env
-VITE_RAPID_API_KEY=your_api_key_here
-```
-
-### 2️⃣ Install Dependencies & Run the Project
+### 1️⃣ Clone the Repository
 
 ```bash
-# Install dependencies
-npm install
+git clone https://github.com/deepanshu1420/AI-Summarizer.git
+```
 
-# Start the development server
+### 2️⃣ Navigate to the project directory
+
+```bash
+cd AI-Summarizer
+```
+
+### 3️⃣ Install Dependencies
+
+> Make sure you have `Node.js` installed, then run:
+
+```bash
+npm install
+```
+
+### 4️⃣ Open the `.env.example` file, add your API Key, then rename it to `.env`
+
+> Visit `https://rapidapi.com/` to generate your Rapid API Key.
+
+```env
+VITE_RAPID_API_ARTICLE_KEY=Add your Rapid API key here
+```
+
+### 5️⃣ Start the Development Server
+
+```bash
 npm run dev
 ```
 
-### ✅ You're Ready!
+✅ **That's it!** The project should now be running locally at:
 
-Open the local development URL shown in the terminal and start summarizing articles with AI! ☄️
+```bash
+http://localhost:5173
+```
+
+Open the URL in your browser and start `summarizing articles with AI`. ☄️
+
 
 
 
