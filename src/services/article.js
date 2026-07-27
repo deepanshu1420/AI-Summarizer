@@ -25,7 +25,7 @@ export const articleApi = createApi({
         params: {
           url: articleUrl,
           method: 'textrank',
-          sentences: 12
+          sentences: 10
         }
       })
     })
