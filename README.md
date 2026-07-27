@@ -19,7 +19,7 @@ This is an application to simplify reading by `condensing lengthy articles` into
 - 📖 Turn lengthy content into quick, digestible insights for faster reading.
 - ⏱️ Save time by extracting the most relevant information in seconds.
 - 🎯 Designed for students, researchers, professionals, and daily readers.
-- 🔗 Simple and intuitive workflow with minimal user input required.
+- 🧩 Simple and intuitive workflow with minimal user input required.
 
 ## 🔥 Features / Highlights
 
@@ -43,41 +43,43 @@ This is an application to simplify reading by `condensing lengthy articles` into
 #### 🏠 Landing Page
 
 ![Landing](/screenshots/screenshot-1.png)
-*Landing page of the AI-powered article summarizer.*
+*`Landing page` of the AI-powered article summarizer.*
 
 #### ⏳ Loading Screen
 
 ![Loading Screen](/screenshots/screenshot-2.png)
-*Processing screen while the AI generates the summary.*
+*Processing screen while the `AI generates the summary`.*
 
 #### 📝 Summary Result
 
 ![Summary](/screenshots/screenshot-3.png)
-*AI-generated summary displayed with key information.*
+*`AI-generated summary` displayed with key information.*
 
 #### 🌞 Light Mode
 
 ![Light Mode](/screenshots/screenshot-4.png)
-*Light theme interface for a clean reading experience.*
+*Light theme interface for a `clean reading experience`.*
 
 #### 📱 Mobile View
 ![Mobile View](/screenshots/screenshot-5.png)
-*Responsive mobile layout of the AI summarizer.*
+*`Responsive mobile layout` of the AI summarizer.*
 
-## 🛠️ Techstack / Framework used
+## ⚙️ Techstack / Framework used
 
 - 🎨 Frontend: React + Vite
 - 🔄 State Management: Redux Toolkit (RTK Query)
 - 💅 Styling: Tailwind CSS
-- 🚀 API Integration: Rapid API Key
+- 📦 API Integration: Rapid API Key
 - 💾 Storage: Local Storage
 - 📋 Utility: Clipboard API
+- 🌿 Version Control: Git & GitHub
+- 🚢 Deployment: Vercel
 
-## ⚙️ Setup & Installation
+## 🛠️ Setup & Installation
 
 ### 1️⃣ Configure Environment Variables
 
-Open the `.env.example` file, add your **Rapid API Key**, and save it as `.env`.
+> Open the `.env.example` file, add your **Rapid API Key**, and save it as `.env`.
 
 ```env
 VITE_RAPID_API_KEY=your_api_key_here
