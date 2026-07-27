@@ -9,7 +9,7 @@
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
 
-This is an app to simplify reading by condensing lengthy articles into concise summaries. User just need to paste the article URL and get the summary of that article transformed by AI.
+This is an application to simplify reading by `condensing lengthy articles` into concise summaries. User just need to paste the article URL and get the summary of that article transformed by AI.
 
 **🌐 Try AI Summarizer Pro :** [Live Demo](https://aisummarizerpro.vercel.app/)
 
