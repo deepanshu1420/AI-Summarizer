@@ -5,15 +5,18 @@ const Hero = () => {
   return (
     <header className="w-full flex justify-center items-center flex-col">
       <nav className="flex flex-col sm:flex-row justify-between items-center w-full mb-10 pt-3 gap-5">
-        <div className="flex items-center gap-2">
+        <div
+        className="flex items-center gap-2 cursor-pointer"
+        onClick={() => window.location.reload()}
+        >
           <img
-            src={logo}
-            alt="summarizer logo"
-            className="h-9 object-contain"
+          src={logo}
+          alt="summarizer logo"
+          className="h-9 object-contain"
           />
           <p className="text-3xl text-white font-extrabold light_mode">
             Summarizer
-          </p>
+            </p>
         </div>
 
         <div className="flex gap-4 sm:gap-8 items-center">
