@@ -26,6 +26,9 @@ This is an application to simplify reading by `condensing lengthy articles` into
 - 🧠 **AI Article Summarization**  
   Uses NLP APIs to extract and generate short summaries from long web articles.
 
+- 📥 **One-Tap Summary Copy**  
+  Instantly copies the generated summary to the clipboard with a single click.  
+
 - ⚡ **Efficient API Handling**  
   Powered by Redux Toolkit (RTK Query) for optimized API calls and state management.
 
