@@ -62,7 +62,7 @@ This is an application to simplify reading by `condensing lengthy articles` into
 
 #### 📱 Mobile View
 ![Mobile View](/screenshots/screenshot-5.png)
-*`Responsive mobile layout` of the AI summarizer.*
+*`Responsive mobile layout` of AI Summarizer across all screen sizes.*
 
 ## ⚙️ Techstack / Framework used
 
