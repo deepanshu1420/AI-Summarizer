@@ -58,7 +58,7 @@ This is an application to simplify reading by `condensing lengthy articles` into
 #### 🌞 Light Mode
 
 ![Light Mode](/screenshots/screenshot-4.png)
-*Light theme interface for a `clean reading experience`.*
+*`Light theme interface` for a clean reading experience.*
 
 #### 📱 Mobile View
 ![Mobile View](/screenshots/screenshot-5.png)
