@@ -1,6 +1,6 @@
 # 📑 AI Summarizer
 
-![React](https://img.shields.io/badge/React-10B981?style=flat-square&logo=react&logoColor=white)
+![React](https://img.shields.io/badge/React-16A34A?style=flat-square&logo=react&logoColor=white)
 ![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=flat-square&logo=javascript&logoColor=F7DF1E)
 ![Redux Toolkit](https://img.shields.io/badge/Redux_Toolkit-593D88?style=flat-square&logo=redux&logoColor=white)
