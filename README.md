@@ -73,7 +73,7 @@ This is an application to simplify reading by `condensing lengthy articles` into
 - 💾 Storage: Local Storage
 - 📋 Utility: Clipboard API
 - 🌿 Version Control: Git & GitHub
-- 🚢 Deployment: Vercel
+- 🚢 Deployment & Hosting: Vercel
 
 ## 🛠️ Setup & Installation
 
